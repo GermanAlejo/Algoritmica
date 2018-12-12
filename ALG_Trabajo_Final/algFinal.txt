@@ -1,0 +1,78 @@
+Se modelan jugadores que formaran una alineacion
+Una alineacion es una posible solucion
+
+Los jugadores tienen tres atributos
+	-tecnica
+	-moral
+	-estado de forma
+	
+Los atributos tienen valores aleatorios:
+	-entre -0.05 y +0.2 -> formo parte de la alineacion en la liga anterior
+	-entre -0.2 y +0.05 -> no formo parte de la alineacion
+	
+Todos los jugadores ttienen una probabilidad de 0.15 de lesionarse 
+Si ocurre estaran entre 1 y 3 jornadas sin jugar 
+
+Hay 25 jugadores:
+	3 porteros
+	7 defensas
+	9 mediocentros
+	6 delanteros
+	
+Una alineacion 11 jugadores:
+	1 portero
+	3 defensas
+	4 mediocentros
+	3 delanteros
+	
+En caso de que falten jugadores en una jornada se escoje uno aleatorio
+
+
+---------------------------------------------------------------------------------------------
+
+
+//POSIBLES VARIABLES Y SUS VALORES
+
+Clase jugador:
+
+clase jugador con las variables y atributos correspondientes
+
+cada jugador tiene un valor asociado a cada uno de estos atributos,cuyo valor se inicializa entre  y 10, y
+ que varian respecto a un numero aleatorio depediendo si formo o no parte de la jornada anterior
+ 
+cuanto mas juega un jugador mas bajas son estas caracteristicas
+
+cada jugador tiene una probabilidad de lesionarse (que puede ser mayor cuanto mas juegan)
+
+clase principal:
+array/lista 25 jugadores	//todo las posibles soluciones todo el espacio de busqueda
+array/lista 11 jugadores	//una posible solucion es una alineacion formada por varios de esos 25 jugadores
+
+
+array/lista de todos los jugadores
+
+
+
+I NEED:
+metodo para inicializar una solucion-x
+metodo para generar un vecino-x
+metodo para calcular el coste de una solucion
+metodo para calcular el coste de un jugador
+metodo para generar probabilidad de que los juegadores se lesionen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

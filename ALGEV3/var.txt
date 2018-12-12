@@ -1,0 +1,39 @@
+
+
+xi -> vector de locations
+pBest-> vector de la mejor localizacion encontrada por la particula(mejor localizacion)
+vi -> vector de velocidades
+----------------------------------------------------------------------
+x_fitness -> fitness de la solucion actual(xi)
+p_fitness -> fitness de la mejor solucion actual(pBest)
+
+pi -> particula
+g -> indice de la particula con el mejor pBest_fitness de pi o de toda la nube
+gBest-> mejor localizacion de toda la nube
+rnd()-> numero aleatorio entre 0 y 1
+d -> d-enesima dimension del vector
+
+
+random.nextInt(max - min + 1) + min
+
+error de tolerancia?????
+
+
+
+La localizacion representa las posiciones de los edificios en el array
+la localizacion es la solucion actual
+
+
+
+tenemos una lista de ciudades en un cierto orden = solucion
+
+dos matrices fijas que no cambian en cada ejecucion
+como se relaciona la matriz de distancias con el vector de posiciones(location)
+como se modela el fitness
+
+
+---------------------------------------------------------------------------
+mover particulas:
+xi<-xi+vi
+si el nuevo fitness es mejor, entonces:
+pBest<-xi;pBest_fitness<-x_fitness

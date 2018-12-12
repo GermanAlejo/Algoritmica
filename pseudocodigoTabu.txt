@@ -1,0 +1,28 @@
+while(i<nIter)
+	generaVecinos(solucionActual)
+	
+	while(hayaVecinos)
+		vecinoActual = lista.next
+		
+		if(no es tabu && es mejor que el mejor de los vecinos)
+			mejorVecino<-vecino
+		elif(es tabu &&supera mi condicion de aspiracion)
+			mejorVecino<-vecino
+			
+		mejorVecino<-vecino
+		
+		finWhile
+		
+		solActual<-mejorVecino
+		listaTabu.insertarTabu(solActual)
+		
+		if(solActual es mejor que mejorSolucion)
+			mejorSol<-solActual
+		fin if
+		
+		listaTabu.actualizarTenencias()
+		
+		finWhile
+		
+		
+		
